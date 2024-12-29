@@ -1,0 +1,53 @@
+*{
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.site-title{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 0px 5px;
+    color: aliceblue;
+    background-color: red;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.sub-title{
+    display: block;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0px;
+    color: aliceblue;
+}
+
+.img-container{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0% 5%;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgba(255, 86, 86, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.posters{
+    height: 300px;
+    flex: 1 0 200px;
+    border-radius: 20px;
+}
